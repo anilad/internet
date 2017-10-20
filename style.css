@@ -1,0 +1,226 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+body{
+    width: 1200px;
+    font-family: Arial, sans-serif, Helvetica, sans-serif;
+}
+.red{
+    color: red;
+}
+.dBlue{
+    color: #00679B;
+}
+.blue{
+    color: #2BB0C0;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}
+.italic{
+    font-style: italic;
+    color: black;
+}
+header h1{
+    display:inline-block;
+    position: absolute;
+    margin: 24px 0px 0px 10px;
+}
+
+header h2{
+    background: linear-gradient(#136E9E, #629CBB, #136E9E);
+    color: white;
+    padding: 15px;
+    width: 1170px;
+    margin-top: -20px;
+    display: inline-block;
+}
+header img{
+    height: 80px;
+    display: inline-block;
+    position: relative;
+}
+span{
+    color: #00679B;
+}
+article{
+    background: linear-gradient(#E4E4E4,white, white, white)
+}
+
+sidebar{
+    display: inline-block;
+    width: 252px;
+}
+
+sidebar p{
+    margin: 5px;
+}
+sidebar img{
+    width: 125px;
+    margin: 0px 0px 30px 62px;
+    display: block;
+}
+.topSide{
+    height: 170px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+.botSide{
+    background-image: url('images/ad_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    height: 320px;
+} 
+.botSide h3{
+    padding: 15px;
+    text-align: center;
+}
+.vidButton{
+    display: block;
+    width: 245px;
+    background-color:#096DA0;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 25px;
+    font-size: 13px; 
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.resButton{
+    display: block;
+    width: 245px;
+    background-color:#F86E0B;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 25px;
+    font-size: 13px; 
+}
+
+.lerButton{
+    display: block;
+    width: 225px;
+    background-color:#00CBDD;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 25px;
+    font-size: 13px; 
+    margin-bottom: 40px;
+}
+.topSide a{
+    display: block;
+    width: 245px;
+    box-shadow: 1px 1px 1px #ABABAB;
+    background: linear-gradient(#F1AA61 #F86E0B);
+    text-decoration: none;
+}
+
+.box{
+    display: inline-block;
+    vertical-align: top;
+    width: 852px;
+    margin-left: 70px;
+}
+
+nav{
+    text-align: right;
+}
+
+nav>img{
+    width: 15px;
+    /* margin-right: 830px; */
+    vertical-align: top;
+}
+nav a{
+    margin-right:0px;
+}
+.home{
+    display: inline-block;
+    margin-right: 798px;
+    vertical-align: top;
+}
+.home a{
+    text-decoration: none;
+    color: #00679B;
+}
+.home img{
+    height: 15px;
+    
+}
+.contact{
+    text-align: right;
+    display: inline-block;
+    margin-top: -15px;
+}
+.contact>img{
+    width: 40px;
+}
+.contact p{
+    font-size: 8px;
+}
+.contact h4{
+    color: #2BCADF;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+}
+.content{
+    display: inline-block;
+    border-top: 1px solid grey;
+    padding: 10px 0px 20px 0px;
+}
+.content img{
+    width: 300px;
+    display: block;
+}
+.content h4{
+    color: #00679B;
+    padding: 10px 0px;
+    font-size: 1.2em;
+}
+.content ul{
+    padding: 10px 0px 0px 50px;
+}
+
+.content ol{
+    padding: 10px 0px 0px 50px;
+}
+
+footer{
+    border-top: solid 5px #0089DB;
+    border-left: solid 5px #0089DB;
+    border-right: solid 5px #0089DB;
+    height: 100px;
+    width: 800px;
+    margin-left: 300px;
+}
+footer a{
+    text-decoration: none;
+    color: #2BB0C0;
+}
+
+footer img{
+    height: 100px;
+    margin: 10px;
+}
+
+footer h4{
+    display: inline-block;
+}
+footer p{
+    display: inline-block;
+}
+.footBox{
+    display: inline-block;
+    width: 600px;
+    margin: 15px;
+    vertical-align: top;
+}
